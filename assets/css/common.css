@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* offscreen */
+.offscreen {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+/* content-inner */
+.content-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
