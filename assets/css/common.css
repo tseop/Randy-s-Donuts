@@ -11,6 +11,48 @@
 }
 /* content-inner */
 .content-inner {
-    width: 1200px;
+    max-width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
+}
+
+/* mtitle */
+.mtitle-wrap { display: flex; margin-bottom: 30px; align-items: center;}
+.mtitle-wrap .title { font-size: 32px; font-weight: 700; color: #ff4e00;}
+.mtitle-wrap .sub-title { font-size: 18px; font-weight: 500;}
+.mtitle-wrap .btn-plus { margin-left: auto;}
+.mtitle-wrap .btn-plus .text { display: inline-block; font-size: 16px; font-weight: 500; vertical-align: top;}
+.mtitle-wrap .btn-plus:hover .text { text-decoration: underline;}
+.mtitle-wrap .btn-plus:after { content: ''; display: inline-block; width: 12px; height: 12px; margin-left: 3px; margin-top: 6px; background-image: url(../images/common/ico_plus.png); vertical-align: top;}
+
+/* prod */
+.prod-list-wrap .prod-list:after { content: ''; display: block; clear: both;}
+.prod-list-wrap .prod-list .prod-item { float: left; width: calc((100% - 36px)/3); margin-left: 18px;}
+.prod-list-wrap .prod-list .prod-item:nth-child(3n+1) { margin-left: 0;}
+.prod-list-wrap .prod-list .prod-item .img-area img { width: 100%;}
+.prod-list-wrap .prod-list .prod-item .info-area { text-align: center;}
+.prod-list-wrap .prod-list .prod-item .info-area .name { font-size: 18px; font-weight: 500;}
+.prod-list-wrap .prod-list .prod-item .info-area .price { display: block; font-size: 16px;}
+
+/* board */
+.board-list-wrap .board-list .board-item { display: flex; padding: 10px 0; border-bottom: 1px solid #ccc; align-items: center;}
+.board-list-wrap .board-list .board-item .board-link { display: inline-block; max-width: calc(100% - 85px); font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; vertical-align: top;}
+.board-list-wrap .board-list .board-item .board-link:hover { text-decoration: underline;}
+.board-list-wrap .board-list .board-item .date { display: inline-block; margin-left: auto; font-size: 14px; vertical-align: top;}
+
+/* mo */
+@media (max-width : 1024px) {
+    .mtitle-wrap { margin-bottom: 20px;}
+    .mtitle-wrap .title { font-size: 24px;}
+    .mtitle-wrap .sub-title { font-size: 14px;}
+    .mtitle-wrap .btn-plus .text { font-size: 12px;}
+    .mtitle-wrap .btn-plus:after { margin-top: 3px;}
+    .prod-list-wrap .prod-list .prod-item .info-area .name { font-size: 14px;}
+    .prod-list-wrap .prod-list .prod-item .info-area .price { font-size: 12px;}
+    .board-list-wrap .board-list .board-item .board-link { font-size: 16px;}
+    .board-list-wrap .board-list .board-item .date { font-size: 12px;}
+}
+@media (max-width : 768px) {
+    .prod-list-wrap .prod-list .prod-item .info-area .name { font-size: 11px;}
+    .prod-list-wrap .prod-list .prod-item .info-area .price { font-size: 9px;}
 }
