@@ -47,8 +47,8 @@
     .mtitle-wrap .sub-title { font-size: 14px;}
     .mtitle-wrap .btn-plus .text { font-size: 12px;}
     .mtitle-wrap .btn-plus:after { margin-top: 3px;}
-    .prod-list-wrap .prod-list .prod-item .info-area .name { font-size: 14px;}
-    .prod-list-wrap .prod-list .prod-item .info-area .price { font-size: 12px;}
+    .prod-list-wrap .prod-list .prod-item .info-area .name { font-size: 16px;}
+    .prod-list-wrap .prod-list .prod-item .info-area .price { font-size: 14px;}
     .board-list-wrap .board-list .board-item .board-link { font-size: 16px;}
     .board-list-wrap .board-list .board-item .date { font-size: 12px;}
 }

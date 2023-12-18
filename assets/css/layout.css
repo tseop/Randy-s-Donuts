@@ -48,15 +48,16 @@
     .header-wrapper .menu-wrap .menu-header .btn-menu-close { margin-left: auto; width: 24px; height: 24px; background-image: url(../images/common/ico_menu_close.png);}
     .header-wrapper .menu-wrap .menu-content { border-top: 1px solid #ccc; padding: 20px;}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item { border-bottom: 1px solid #ccc;}
-    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header { position: relative; padding: 10px 0;}
-    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header .gnb-text { font-size: 14px; font-weight: 500;}
+    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header { position: relative; padding: 15px 0;}
+    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header .gnb-text { font-size: 16px; font-weight: 500;}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header .btn-fold { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%;}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-header .btn-fold:after { content: ""; position: absolute; top: 50%; right: 0; width: 16px; height: 16px; margin-top: -8px; background-image: url(../images/common/ico_fold_arrow.png);}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item.expanded .fold-header .btn-fold:after { transform: rotate(-180deg);}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-content { display: none; margin: 10px 0; padding: 20px 10px; background: #f8f8f8;}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item.expanded .fold-content { display: block;}
-    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-content .sub-list .sub-item { margin-top: 10px;}
+    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-content .sub-list .sub-item { margin-top: 20px;}
     .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-content .sub-list .sub-item:first-child { margin-top: 0;}
+    .header-wrapper .menu-wrap .menu-content .fold-list .fold-item .fold-content .sub-list .sub-item .sub-link { font-size: 14px;}
 }
 
 /* container */
