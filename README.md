@@ -38,12 +38,15 @@ PC,MO 영역 동일 - 모바일로 전환 시 폰트 사이즈, 이미지 사이
 ### 메인페이지 - PC,MO
 
 메인배너영역, 메뉴영역, 브랜드뉴스영역, 퀵메뉴영역으로 구성했습니다.<br>각 섹션별로 해당 메뉴로 이동할 수 있는 바로가기 링크버튼 추가
+
 ----
+
 #### PC
+
 ---
 ![screencapture-file-C-Users-USER-20220523-Desktop-Randys-Donuts-html-main-main-html-2023-12-27-11_19_59](https://github.com/tseop/Randy-s-Donuts/assets/145314306/0232b159-3b5a-4809-8fb8-05f7f154fac4)
 
 #### MO
+
 ---
 ![screencapture-file-C-Users-USER-20220523-Desktop-Randys-Donuts-html-main-main-html-2023-12-27-11_21_24](https://github.com/tseop/Randy-s-Donuts/assets/145314306/c6291607-1c52-4b82-acd2-eb9495bd4008)
-
