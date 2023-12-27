@@ -11,15 +11,28 @@
 #### 헤더 - PC,MO 상단 fixed 고정
 ---
 ![화면 캡처 2023-12-27 111244](https://github.com/tseop/Randy-s-Donuts/assets/145314306/5b38d39a-3052-4252-a1a6-c371515f8fd3)
-<br>GNB 마우스 hover시 서브메뉴 활성화<br>
+
+
+GNB 마우스 hover시 서브메뉴 활성화<br>
+
+
 ![화면 캡처 2023-12-27 111419](https://github.com/tseop/Randy-s-Donuts/assets/145314306/dabf532c-cb9b-4334-81e6-fa2cd5c3a1db)
-<br>![화면 캡처 2023-12-27 111445](https://github.com/tseop/Randy-s-Donuts/assets/145314306/6e784f63-7634-4d3f-9aa5-7c944c947879)
-<br>태블릿, 모바일 화면으로 전환 시 메뉴 비활성화, 우측 메뉴아이콘 클릭 시 전체 메뉴 활성화
+
+
+태블릿, 모바일 화면으로 전환 시 메뉴 비활성화
+
+
+![화면 캡처 2023-12-27 111445](https://github.com/tseop/Randy-s-Donuts/assets/145314306/6e784f63-7634-4d3f-9aa5-7c944c947879)<br>
+
+
+우측 메뉴아이콘 클릭 시 전체 메뉴 활성화
 
 #### 푸터
 ---
 ![화면 캡처 2023-12-27 111711](https://github.com/tseop/Randy-s-Donuts/assets/145314306/fdc01921-378d-4dc8-9b8e-b1e958946503)
-<br> PC,MO 영역 동일 - 모바일로 전환 시 폰트 사이즈, 이미지 사이즈 축소 변경
+
+
+PC,MO 영역 동일 - 모바일로 전환 시 폰트 사이즈, 이미지 사이즈 축소 변경
 
 
 ### 메인페이지 - PC,MO
